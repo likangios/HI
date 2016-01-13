@@ -1,0 +1,56 @@
+//
+//  HI.pch
+//  HI
+//
+//  Created by FengLing on 16/1/13.
+//  Copyright © 2016年 lk. All rights reserved.
+//
+
+#ifndef HI_pch
+#define HI_pch
+
+#import "HIUntil.h"
+#import "HIHead.h"
+
+#define HI_UAT
+
+// 本地开发环境(局域网环境)
+#if defined(HI_DEVELOPMENT)
+#define Limit_count [NSNumber numberWithInt:10]
+#define Version_TXT @"(dev)"
+static const int ddLogLevel = DDLogLevelVerbose;
+// 测试环境（外网测试服务器）
+#elif defined(HI_TEST)
+#define Limit_count [NSNumber numberWithInt:10]
+#define Version_TXT @"(test)"
+static const int ddLogLevel = DDLogLevelVerbose;
+
+#elif defined(HI_UAT)
+#define Limit_count [NSNumber numberWithInt:10]
+#define Version_TXT @"(UAT)"
+static const int ddLogLevel = DDLogLevelVerbose;
+
+// 生产环境 （外网生产服务器)
+#elif defined(HI_PRODUCTION)
+#define Limit_count [NSNumber numberWithInt:20]
+#define Version_TXT @""
+static const int ddLogLevel = DDLogLevelOff;
+#else
+
+#error "can't detemted mode"
+
+#endif
+
+#define ScreenBounds [UIScreen mainScreen].bounds
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define hi_color(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+
+#define hi_color_a(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* HI_pch */
