@@ -1,5 +1,5 @@
 //
-//  HIBaseTableViewPlainController.h
+//  HIBaseTableViewGroupController.h
 //  HI
 //
 //  Created by FengLing on 16/1/13.
@@ -7,7 +7,10 @@
 //
 
 #import "HIBaseViewController.h"
-
-@interface HIBaseTableViewPlainController : HIBaseViewController
+/**
+ *  Group类型的Tableview   还有一中Plain 类型的Tableview
+ */
+@interface HIBaseTableViewGroupController : HIBaseViewController
 @property (nonatomic,strong) IBOutlet UITableView *tableView;
+
 @end

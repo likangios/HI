@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+/**
+ *  UITabBarController 基类
+ */
 @interface HICustomTabBarController : UITabBarController
 
 @end

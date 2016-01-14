@@ -1,22 +1,24 @@
 //
-//  HIViewController1.m
+//  HICustomNavigationController.m
 //  HI
 //
 //  Created by FengLing on 16/1/13.
 //  Copyright © 2016年 lk. All rights reserved.
 //
 
-#import "HIViewController1.h"
+#import "HICustomNavigationController.h"
 
-@interface HIViewController1 ()
+@interface HICustomNavigationController ()
 
 @end
 
-@implementation HIViewController1
+@implementation HICustomNavigationController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.navigationBar.clipsToBounds = YES;
+    [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"progress"] forBarMetrics:UIBarMetricsDefault];
+    self.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor],NSFontAttributeName:[UIFont systemFontOfSize:12]};
 }
 
 - (void)didReceiveMemoryWarning {

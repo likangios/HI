@@ -15,6 +15,9 @@ typedef enum : NSUInteger {
     kServerErrorCode_NotEXISTED = 105,
 } kServerErrorCode;
 
+/**
+ *  处理服务器返回的json 类
+ */
 @interface HIResponeResult : NSObject
 {
     NSDictionary *  _json;
@@ -44,11 +47,38 @@ typedef enum : NSUInteger {
  *  getter
  *
  */
+#pragma mark get
+/**
+ *  获取服务器返回的错误码
+ *
+ *  @return
+ */
 - (kServerErrorCode)  get_error_code;
+/**
+ *  获取服务器返回的错误信息
+ *
+ *  @return
+ */
 - (NSString *)  get_messge;
+/**
+ *  获取服务器返回的数据
+ *
+ *  @return 
+ */
 - (id) get_data;
 
 
+#pragma makr 对返回的数据处理
+
+/**
+ *  获得第一个对象数据
+ *
+ *  @return 如果第一个数据是NSDictionary （包括在array中的第一个) , 则返回 NSDictionary 对象，否则返回nil
+ */
+/*
+ 如果服务器返回的是一个对象 直接用这个方法 如果是一个数组 用下面的方法 try_get_data_with_array
+ */
+- (NSDictionary *) get_first_object;
 /**
  * 返回 array 格式的数据
  *
@@ -64,18 +94,10 @@ typedef enum : NSUInteger {
 - (NSDictionary *) try_get_data_with_dict;
 
 /**
- *  获得第一个对象数据
- *
- *  @return 如果第一个数据是NSDictionary （包括在array中的第一个) , 则返回 NSDictionary 对象，否则返回nil
- */
-- (NSDictionary *) get_first_object;
-
-/**
  *  讲服务器返回的数据格式化成string
  *
  *  @return 返回格式化后的stringe shig
  */
 - (NSString *) description;
-
 
 @end

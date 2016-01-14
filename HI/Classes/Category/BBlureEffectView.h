@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ *  毛玻璃效果类 要毛玻璃效果的view 直接 继承这个类
+ */
 @interface BBlureEffectView : UIView
 
 @property (nonatomic,assign) UIBlurEffectStyle effectStyle;

@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+/**
+ *  自定义 导航控制器 
+ */
 @interface HICustomNavigationController : UINavigationController
 
 @end

@@ -9,5 +9,12 @@
 #import "HISignoutAction.h"
 
 @implementation HISignoutAction
-
+- (instancetype)init{
+    self = [super initWithActionURLString:@""];
+    if (self) {
+        
+    }
+    self.isValid = YES;
+    return self;
+}
 @end

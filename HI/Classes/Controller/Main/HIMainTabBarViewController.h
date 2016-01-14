@@ -7,7 +7,9 @@
 //
 
 #import "HICustomTabBarController.h"
-
+/**
+ *  登陆成功的  UITabBarController
+ */
 @interface HIMainTabBarViewController : HICustomTabBarController
 
 @end

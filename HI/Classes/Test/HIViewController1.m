@@ -1,25 +1,24 @@
 //
-//  HICustomNavigationController.m
+//  HIViewController1.m
 //  HI
 //
 //  Created by FengLing on 16/1/13.
 //  Copyright © 2016年 lk. All rights reserved.
 //
 
-#import "HICustomNavigationController.h"
+#import "HIViewController1.h"
 
-@interface HICustomNavigationController ()
+@interface HIViewController1 ()
 
 @end
 
-@implementation HICustomNavigationController
+@implementation HIViewController1
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationBar.clipsToBounds = YES;
-    [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"ahhaha"] forBarMetrics:UIBarMetricsCompact];
+    [self addBackItem];
+    [self addRightWithTitle:@"完成"];
 }
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -110,6 +110,32 @@ NSString *letters = @"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ012345
     uploadFilePath = [NSURL fileURLWithPath:strFilePath];
     return uploadFilePath;
 }
++(NSURL *) createTempImageUploadFile:(UIImage *) origin_upload_image WithMaxSize:(CGSize) max_size
+{
+    UIImage * resizedImage = [HIUntil Reduce:origin_upload_image WithMaxSize:max_size];
+    if( !resizedImage )
+        return nil;
+    
+    NSURL *uploadFilePath = nil;
+    
+    NSString * random_string = [HIUntil randomStringWithLength:32];
+    NSString * strFilePath = [NSTemporaryDirectory() stringByAppendingPathComponent:
+                              [NSString stringWithFormat: @"%@_%.0f.%@", random_string ,
+                               [NSDate timeIntervalSinceReferenceDate] ,
+                               @"jpg"]];
+    
+    if( [[NSFileManager defaultManager] fileExistsAtPath:strFilePath isDirectory:nil] )
+    {
+        [[NSFileManager defaultManager] removeItemAtPath:strFilePath error:nil];
+    }
+    
+    NSData * binaryImageData = UIImageJPEGRepresentation(resizedImage , 0.7f);
+    if( ![binaryImageData writeToFile:strFilePath atomically:YES] )
+        return nil;
+    
+    uploadFilePath = [NSURL fileURLWithPath:strFilePath];
+    return uploadFilePath;
+}
 + (void)sortWithProperty:(NSString *)key ascending:(BOOL)asc with:(NSMutableArray *)array{
     // property 表示数据模型的 某个属性  YES  升序  NO 降序
     NSSortDescriptor *sordescriptor = [[NSSortDescriptor alloc]initWithKey:key ascending:asc];

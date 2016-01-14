@@ -7,7 +7,7 @@
 //
 
 #import "HIMainTabBarViewController.h"
-
+#import "HICustomNavigationController.h"
 @interface HIMainTabBarViewController ()
 
 @end
@@ -17,16 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self loadViewControllers];
-    // Do any additional setup after loading the view from its nib.
 }
 - (void)loadViewControllers{
-    NSArray *vcs = @[@"HIViewController1",@"HIViewController2",@"HIViewController3",@"HIViewController4"];
+    NSArray *vcs = @[@"HIHomePageViewController",@"HIFriendsViewController",@"HITopViewController",@"HIPersonalCenterViewController"];
     NSMutableArray *viewcontrollers = [NSMutableArray array];
     for (NSString *class_name in vcs) {
         UIViewController *vc = [[NSClassFromString(class_name) alloc]initWithNib];
         vc.view.backgroundColor = hi_color(arc4random()%255, arc4random()%255, arc4random()%255);
-        vc.tabBarItem.title = NSStringFromClass(vc.class);
-        [viewcontrollers addObject:vc];
+        HICustomNavigationController *nav = [[HICustomNavigationController alloc]initWithRootViewController:vc];
+        [viewcontrollers addObject:nav];
     }
     self.viewControllers = viewcontrollers;
 }

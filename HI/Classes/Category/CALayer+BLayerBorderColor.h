@@ -7,7 +7,9 @@
 //
 
 #import <QuartzCore/QuartzCore.h>
-
+/**
+ *  方便在xib里 加边框颜色的扩展
+ */
 @interface CALayer (BLayerBorderColor)
 
 @property (nonatomic,strong) UIColor *borderColorWithUIColor;

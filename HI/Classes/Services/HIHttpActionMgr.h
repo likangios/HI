@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-
+/**
+ *  HTTP 管理器
+ */
 @interface HIHttpActionMgr : NSObject
 /**
  *  单利

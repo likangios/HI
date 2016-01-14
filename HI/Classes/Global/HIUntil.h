@@ -10,54 +10,15 @@
 #import <UIKit/UIKit.h>
 #import <MBProgressHUD.h>
 /**
- *  等于某个版本号
- *
- *
- *  @return 等于 YES  否则 NO
+ *  工具类 把公用的方法 写在这里 全局使用
  */
-#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
-/**
- *  大于某个版本号
- *
- *
- *  @return 大于 YES 否则 NO
- */
-#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
-/**
- *  大于或等于版本号
- *
- *
- *  @return 大于或等于 YES 否则 NO
- */
-#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
-/**
- *  小于某个版本号
- *
- *
- *  @return 小于 YES 否则 NO
- */
-#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
-/**
- *  小于等于V
- *
- *
- *  @return 小于或等于 YES 否则 NO
- */
-#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
-
-#ifndef IS_PHONE
-#define IS_PHONE (UI_USER_INTERFACE_IDIOM()==UIUserInterfaceIdiomPhone)
-#endif
-
-
 @interface HIUntil : NSObject
 /**
- *  <#Description#>
+ *  计算字符串大小
  *
- *  @param str        <#str description#>
- *  @param width      <#width description#>
- *  @param font       <#font description#>
- *  @param min_height <#min_height description#>
+ *  @param str        字符串
+ *  @param width      限制宽度
+ *  @param font       字体
  *
  *  @return 返回字符串所需要的显示尺寸
  */
@@ -105,7 +66,16 @@
  *  @return 返回临时的图片文件url
  */
 +(NSURL *) createTempImageUploadFile:(UIImage *) origin_upload_image;
-
+/**
+ *  创建一个临时的图片文件
+ *
+ *  @param origin_upload_image 需要创建的图片
+ *
+ *  @param max_size 图片最大尺寸
+ *
+ *  @return 返回临时的图片文件url
+ */
++(NSURL *) createTempImageUploadFile:(UIImage *) origin_upload_image WithMaxSize:(CGSize) max_size;
 /**
  *  数组排序
  *

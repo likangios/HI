@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ *  从xib加载view
+ */
 @interface UIView (loadNib)
 
 @property (nonatomic,strong) NSString *tagString;

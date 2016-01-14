@@ -9,18 +9,8 @@
 /* Begin PBXBuildFile section */
 		61825B311C46170A00642B56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825B301C46170A00642B56 /* main.m */; };
 		61825B341C46170A00642B56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825B331C46170A00642B56 /* AppDelegate.m */; };
-		61825B371C46170A00642B56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825B361C46170A00642B56 /* ViewController.m */; };
-		61825B3A1C46170A00642B56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61825B381C46170A00642B56 /* Main.storyboard */; };
 		61825B3C1C46170A00642B56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61825B3B1C46170A00642B56 /* Assets.xcassets */; };
-		61825B3F1C46170A00642B56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61825B3D1C46170A00642B56 /* LaunchScreen.storyboard */; };
-		61825B551C46193E00642B56 /* HICustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825B541C46193E00642B56 /* HICustomNavigationController.m */; };
 		61825B581C4619B100642B56 /* HIUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825B571C4619B100642B56 /* HIUntil.m */; };
-		61825B5D1C461BF100642B56 /* HIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825B5B1C461BF100642B56 /* HIBaseViewController.m */; };
-		61825B5E1C461BF100642B56 /* HIBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61825B5C1C461BF100642B56 /* HIBaseViewController.xib */; };
-		61825B621C461C2500642B56 /* HIBaseTableViewPlainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825B601C461C2500642B56 /* HIBaseTableViewPlainController.m */; };
-		61825B631C461C2500642B56 /* HIBaseTableViewPlainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61825B611C461C2500642B56 /* HIBaseTableViewPlainController.xib */; };
-		61825B671C46246300642B56 /* HIBaseTableViewGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825B651C46246300642B56 /* HIBaseTableViewGroupController.m */; };
-		61825B681C46246300642B56 /* HIBaseTableViewGroupController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61825B661C46246300642B56 /* HIBaseTableViewGroupController.xib */; };
 		61825B6C1C462B1000642B56 /* HIHttpActionMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825B6B1C462B1000642B56 /* HIHttpActionMgr.m */; };
 		61825B6F1C462B7900642B56 /* HIResponeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825B6E1C462B7900642B56 /* HIResponeResult.m */; };
 		61825B721C462C0400642B56 /* HIStoreService.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825B711C462C0400642B56 /* HIStoreService.m */; };
@@ -31,24 +21,43 @@
 		61825B811C46308300642B56 /* HIActionFindPWD.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825B801C46308300642B56 /* HIActionFindPWD.m */; };
 		61825B841C46309E00642B56 /* HISignupWithPhoneAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825B831C46309E00642B56 /* HISignupWithPhoneAction.m */; };
 		61825B871C4630C600642B56 /* HIChangePasswordAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825B861C4630C600642B56 /* HIChangePasswordAction.m */; };
-		61825BA61C46533800642B56 /* HICustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825BA41C46533800642B56 /* HICustomTabBarController.m */; };
-		61825BA71C46533800642B56 /* HICustomTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61825BA51C46533800642B56 /* HICustomTabBarController.xib */; };
-		61825BAB1C46537300642B56 /* HIMainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825BA91C46537300642B56 /* HIMainTabBarViewController.m */; };
-		61825BAC1C46537300642B56 /* HIMainTabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61825BAA1C46537300642B56 /* HIMainTabBarViewController.xib */; };
-		61825BB01C46541400642B56 /* HIViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825BAE1C46541400642B56 /* HIViewController1.m */; };
-		61825BB11C46541400642B56 /* HIViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61825BAF1C46541400642B56 /* HIViewController1.xib */; };
-		61825BB51C46542300642B56 /* HIViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825BB31C46542300642B56 /* HIViewController2.m */; };
-		61825BB61C46542300642B56 /* HIViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61825BB41C46542300642B56 /* HIViewController2.xib */; };
-		61825BBA1C46543300642B56 /* HIViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825BB81C46543300642B56 /* HIViewController3.m */; };
-		61825BBB1C46543300642B56 /* HIViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61825BB91C46543300642B56 /* HIViewController3.xib */; };
-		61825BBF1C46544000642B56 /* HIViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825BBD1C46544000642B56 /* HIViewController4.m */; };
-		61825BC01C46544000642B56 /* HIViewController4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61825BBE1C46544000642B56 /* HIViewController4.xib */; };
 		61825BCD1C4654D500642B56 /* BBlureEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825BC21C4654D500642B56 /* BBlureEffectView.m */; };
 		61825BCE1C4654D500642B56 /* CALayer+BLayerBorderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825BC41C4654D500642B56 /* CALayer+BLayerBorderColor.m */; };
 		61825BCF1C4654D500642B56 /* UINavigationItem+BMargin.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825BC61C4654D500642B56 /* UINavigationItem+BMargin.m */; };
 		61825BD01C4654D500642B56 /* UITableViewCell+BGetCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825BC81C4654D500642B56 /* UITableViewCell+BGetCellHeight.m */; };
 		61825BD11C4654D500642B56 /* UIView+loadNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825BCA1C4654D500642B56 /* UIView+loadNib.m */; };
 		61825BD21C4654D500642B56 /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 61825BCC1C4654D500642B56 /* UIViewController+Tracking.m */; };
+		61B2FAC11C4732F000F911C6 /* progress.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B2FAC01C4732F000F911C6 /* progress.png */; };
+		61B2FAC31C473C6600F911C6 /* tabImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B2FAC21C473C6600F911C6 /* tabImg.png */; };
+		61B2FB2B1C477ADE00F911C6 /* HIBaseTabBarSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B2FB011C477ADE00F911C6 /* HIBaseTabBarSubViewController.m */; };
+		61B2FB2C1C477ADE00F911C6 /* HIBaseTabBarSubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B2FB021C477ADE00F911C6 /* HIBaseTabBarSubViewController.xib */; };
+		61B2FB2D1C477ADE00F911C6 /* HIBaseTableViewGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B2FB041C477ADE00F911C6 /* HIBaseTableViewGroupController.m */; };
+		61B2FB2E1C477ADE00F911C6 /* HIBaseTableViewGroupController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B2FB051C477ADE00F911C6 /* HIBaseTableViewGroupController.xib */; };
+		61B2FB2F1C477ADE00F911C6 /* HIBaseTableViewPlainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B2FB071C477ADE00F911C6 /* HIBaseTableViewPlainController.m */; };
+		61B2FB301C477ADE00F911C6 /* HIBaseTableViewPlainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B2FB081C477ADE00F911C6 /* HIBaseTableViewPlainController.xib */; };
+		61B2FB311C477ADE00F911C6 /* HIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B2FB0A1C477ADE00F911C6 /* HIBaseViewController.m */; };
+		61B2FB321C477ADE00F911C6 /* HIBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B2FB0B1C477ADE00F911C6 /* HIBaseViewController.xib */; };
+		61B2FB331C477ADE00F911C6 /* HICustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B2FB0D1C477ADE00F911C6 /* HICustomNavigationController.m */; };
+		61B2FB341C477ADE00F911C6 /* HICustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B2FB0F1C477ADE00F911C6 /* HICustomTabBarController.m */; };
+		61B2FB351C477ADE00F911C6 /* HICustomTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B2FB101C477ADE00F911C6 /* HICustomTabBarController.xib */; };
+		61B2FB361C477ADE00F911C6 /* HIFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B2FB141C477ADE00F911C6 /* HIFriendsViewController.m */; };
+		61B2FB371C477ADE00F911C6 /* HIFriendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B2FB151C477ADE00F911C6 /* HIFriendsViewController.xib */; };
+		61B2FB381C477ADE00F911C6 /* HIMainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B2FB171C477ADE00F911C6 /* HIMainTabBarViewController.m */; };
+		61B2FB391C477ADE00F911C6 /* HIMainTabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B2FB181C477ADE00F911C6 /* HIMainTabBarViewController.xib */; };
+		61B2FB3A1C477ADE00F911C6 /* HIHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B2FB1B1C477ADE00F911C6 /* HIHomePageViewController.m */; };
+		61B2FB3B1C477ADE00F911C6 /* HIHomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B2FB1C1C477ADE00F911C6 /* HIHomePageViewController.xib */; };
+		61B2FB3C1C477ADE00F911C6 /* HIPersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B2FB1F1C477ADE00F911C6 /* HIPersonalCenterViewController.m */; };
+		61B2FB3D1C477ADE00F911C6 /* HIPersonalCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B2FB201C477ADE00F911C6 /* HIPersonalCenterViewController.xib */; };
+		61B2FB3E1C477ADE00F911C6 /* HITopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B2FB231C477ADE00F911C6 /* HITopViewController.m */; };
+		61B2FB3F1C477ADE00F911C6 /* HITopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B2FB241C477ADE00F911C6 /* HITopViewController.xib */; };
+		61B2FB4D1C477B0400F911C6 /* HIViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B2FB421C477B0400F911C6 /* HIViewController1.m */; };
+		61B2FB4E1C477B0400F911C6 /* HIViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B2FB431C477B0400F911C6 /* HIViewController1.xib */; };
+		61B2FB4F1C477B0400F911C6 /* HIViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B2FB451C477B0400F911C6 /* HIViewController2.m */; };
+		61B2FB501C477B0400F911C6 /* HIViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B2FB461C477B0400F911C6 /* HIViewController2.xib */; };
+		61B2FB511C477B0400F911C6 /* HIViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B2FB481C477B0400F911C6 /* HIViewController3.m */; };
+		61B2FB521C477B0400F911C6 /* HIViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B2FB491C477B0400F911C6 /* HIViewController3.xib */; };
+		61B2FB531C477B0400F911C6 /* HIViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B2FB4B1C477B0400F911C6 /* HIViewController4.m */; };
+		61B2FB541C477B0400F911C6 /* HIViewController4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B2FB4C1C477B0400F911C6 /* HIViewController4.xib */; };
 		9FAEB2D3895A3371F22F1E6D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3925F9C87CACE7EC51D95010 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -58,26 +67,11 @@
 		61825B301C46170A00642B56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		61825B321C46170A00642B56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		61825B331C46170A00642B56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		61825B351C46170A00642B56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		61825B361C46170A00642B56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		61825B391C46170A00642B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		61825B3B1C46170A00642B56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		61825B3E1C46170A00642B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61825B3B1C46170A00642B56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		61825B401C46170A00642B56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61825B531C46193E00642B56 /* HICustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HICustomNavigationController.h; sourceTree = "<group>"; };
-		61825B541C46193E00642B56 /* HICustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HICustomNavigationController.m; sourceTree = "<group>"; };
 		61825B561C4619B100642B56 /* HIUntil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUntil.h; sourceTree = "<group>"; };
 		61825B571C4619B100642B56 /* HIUntil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIUntil.m; sourceTree = "<group>"; };
 		61825B591C461A9E00642B56 /* HI.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HI.pch; sourceTree = "<group>"; };
-		61825B5A1C461BF100642B56 /* HIBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIBaseViewController.h; sourceTree = "<group>"; };
-		61825B5B1C461BF100642B56 /* HIBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIBaseViewController.m; sourceTree = "<group>"; };
-		61825B5C1C461BF100642B56 /* HIBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIBaseViewController.xib; sourceTree = "<group>"; };
-		61825B5F1C461C2500642B56 /* HIBaseTableViewPlainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIBaseTableViewPlainController.h; sourceTree = "<group>"; };
-		61825B601C461C2500642B56 /* HIBaseTableViewPlainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIBaseTableViewPlainController.m; sourceTree = "<group>"; };
-		61825B611C461C2500642B56 /* HIBaseTableViewPlainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIBaseTableViewPlainController.xib; sourceTree = "<group>"; };
-		61825B641C46246300642B56 /* HIBaseTableViewGroupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIBaseTableViewGroupController.h; sourceTree = "<group>"; };
-		61825B651C46246300642B56 /* HIBaseTableViewGroupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIBaseTableViewGroupController.m; sourceTree = "<group>"; };
-		61825B661C46246300642B56 /* HIBaseTableViewGroupController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIBaseTableViewGroupController.xib; sourceTree = "<group>"; };
 		61825B6A1C462B1000642B56 /* HIHttpActionMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIHttpActionMgr.h; sourceTree = "<group>"; };
 		61825B6B1C462B1000642B56 /* HIHttpActionMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIHttpActionMgr.m; sourceTree = "<group>"; };
 		61825B6D1C462B7900642B56 /* HIResponeResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIResponeResult.h; sourceTree = "<group>"; };
@@ -99,24 +93,6 @@
 		61825B851C4630C600642B56 /* HIChangePasswordAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIChangePasswordAction.h; sourceTree = "<group>"; };
 		61825B861C4630C600642B56 /* HIChangePasswordAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIChangePasswordAction.m; sourceTree = "<group>"; };
 		61825BA01C46528D00642B56 /* HIHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIHead.h; sourceTree = "<group>"; };
-		61825BA31C46533800642B56 /* HICustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HICustomTabBarController.h; sourceTree = "<group>"; };
-		61825BA41C46533800642B56 /* HICustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HICustomTabBarController.m; sourceTree = "<group>"; };
-		61825BA51C46533800642B56 /* HICustomTabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HICustomTabBarController.xib; sourceTree = "<group>"; };
-		61825BA81C46537300642B56 /* HIMainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIMainTabBarViewController.h; sourceTree = "<group>"; };
-		61825BA91C46537300642B56 /* HIMainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIMainTabBarViewController.m; sourceTree = "<group>"; };
-		61825BAA1C46537300642B56 /* HIMainTabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIMainTabBarViewController.xib; sourceTree = "<group>"; };
-		61825BAD1C46541400642B56 /* HIViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIViewController1.h; sourceTree = "<group>"; };
-		61825BAE1C46541400642B56 /* HIViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIViewController1.m; sourceTree = "<group>"; };
-		61825BAF1C46541400642B56 /* HIViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIViewController1.xib; sourceTree = "<group>"; };
-		61825BB21C46542300642B56 /* HIViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIViewController2.h; sourceTree = "<group>"; };
-		61825BB31C46542300642B56 /* HIViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIViewController2.m; sourceTree = "<group>"; };
-		61825BB41C46542300642B56 /* HIViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIViewController2.xib; sourceTree = "<group>"; };
-		61825BB71C46543300642B56 /* HIViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIViewController3.h; sourceTree = "<group>"; };
-		61825BB81C46543300642B56 /* HIViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIViewController3.m; sourceTree = "<group>"; };
-		61825BB91C46543300642B56 /* HIViewController3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIViewController3.xib; sourceTree = "<group>"; };
-		61825BBC1C46544000642B56 /* HIViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIViewController4.h; sourceTree = "<group>"; };
-		61825BBD1C46544000642B56 /* HIViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIViewController4.m; sourceTree = "<group>"; };
-		61825BBE1C46544000642B56 /* HIViewController4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIViewController4.xib; sourceTree = "<group>"; };
 		61825BC11C4654D500642B56 /* BBlureEffectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBlureEffectView.h; sourceTree = "<group>"; };
 		61825BC21C4654D500642B56 /* BBlureEffectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBlureEffectView.m; sourceTree = "<group>"; };
 		61825BC31C4654D500642B56 /* CALayer+BLayerBorderColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+BLayerBorderColor.h"; sourceTree = "<group>"; };
@@ -129,6 +105,52 @@
 		61825BCA1C4654D500642B56 /* UIView+loadNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+loadNib.m"; sourceTree = "<group>"; };
 		61825BCB1C4654D500642B56 /* UIViewController+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tracking.h"; sourceTree = "<group>"; };
 		61825BCC1C4654D500642B56 /* UIViewController+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tracking.m"; sourceTree = "<group>"; };
+		61B2FAC01C4732F000F911C6 /* progress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = progress.png; path = ../../../../../../Desktop/progress.png; sourceTree = "<group>"; };
+		61B2FAC21C473C6600F911C6 /* tabImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabImg.png; path = ../../../../../../Desktop/tabImg.png; sourceTree = "<group>"; };
+		61B2FB001C477ADE00F911C6 /* HIBaseTabBarSubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIBaseTabBarSubViewController.h; sourceTree = "<group>"; };
+		61B2FB011C477ADE00F911C6 /* HIBaseTabBarSubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIBaseTabBarSubViewController.m; sourceTree = "<group>"; };
+		61B2FB021C477ADE00F911C6 /* HIBaseTabBarSubViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIBaseTabBarSubViewController.xib; sourceTree = "<group>"; };
+		61B2FB031C477ADE00F911C6 /* HIBaseTableViewGroupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIBaseTableViewGroupController.h; sourceTree = "<group>"; };
+		61B2FB041C477ADE00F911C6 /* HIBaseTableViewGroupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIBaseTableViewGroupController.m; sourceTree = "<group>"; };
+		61B2FB051C477ADE00F911C6 /* HIBaseTableViewGroupController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIBaseTableViewGroupController.xib; sourceTree = "<group>"; };
+		61B2FB061C477ADE00F911C6 /* HIBaseTableViewPlainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIBaseTableViewPlainController.h; sourceTree = "<group>"; };
+		61B2FB071C477ADE00F911C6 /* HIBaseTableViewPlainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIBaseTableViewPlainController.m; sourceTree = "<group>"; };
+		61B2FB081C477ADE00F911C6 /* HIBaseTableViewPlainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIBaseTableViewPlainController.xib; sourceTree = "<group>"; };
+		61B2FB091C477ADE00F911C6 /* HIBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIBaseViewController.h; sourceTree = "<group>"; };
+		61B2FB0A1C477ADE00F911C6 /* HIBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIBaseViewController.m; sourceTree = "<group>"; };
+		61B2FB0B1C477ADE00F911C6 /* HIBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIBaseViewController.xib; sourceTree = "<group>"; };
+		61B2FB0C1C477ADE00F911C6 /* HICustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HICustomNavigationController.h; sourceTree = "<group>"; };
+		61B2FB0D1C477ADE00F911C6 /* HICustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HICustomNavigationController.m; sourceTree = "<group>"; };
+		61B2FB0E1C477ADE00F911C6 /* HICustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HICustomTabBarController.h; sourceTree = "<group>"; };
+		61B2FB0F1C477ADE00F911C6 /* HICustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HICustomTabBarController.m; sourceTree = "<group>"; };
+		61B2FB101C477ADE00F911C6 /* HICustomTabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HICustomTabBarController.xib; sourceTree = "<group>"; };
+		61B2FB131C477ADE00F911C6 /* HIFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIFriendsViewController.h; sourceTree = "<group>"; };
+		61B2FB141C477ADE00F911C6 /* HIFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIFriendsViewController.m; sourceTree = "<group>"; };
+		61B2FB151C477ADE00F911C6 /* HIFriendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIFriendsViewController.xib; sourceTree = "<group>"; };
+		61B2FB161C477ADE00F911C6 /* HIMainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIMainTabBarViewController.h; sourceTree = "<group>"; };
+		61B2FB171C477ADE00F911C6 /* HIMainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIMainTabBarViewController.m; sourceTree = "<group>"; };
+		61B2FB181C477ADE00F911C6 /* HIMainTabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIMainTabBarViewController.xib; sourceTree = "<group>"; };
+		61B2FB1A1C477ADE00F911C6 /* HIHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIHomePageViewController.h; sourceTree = "<group>"; };
+		61B2FB1B1C477ADE00F911C6 /* HIHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIHomePageViewController.m; sourceTree = "<group>"; };
+		61B2FB1C1C477ADE00F911C6 /* HIHomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIHomePageViewController.xib; sourceTree = "<group>"; };
+		61B2FB1E1C477ADE00F911C6 /* HIPersonalCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIPersonalCenterViewController.h; sourceTree = "<group>"; };
+		61B2FB1F1C477ADE00F911C6 /* HIPersonalCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIPersonalCenterViewController.m; sourceTree = "<group>"; };
+		61B2FB201C477ADE00F911C6 /* HIPersonalCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIPersonalCenterViewController.xib; sourceTree = "<group>"; };
+		61B2FB221C477ADE00F911C6 /* HITopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HITopViewController.h; sourceTree = "<group>"; };
+		61B2FB231C477ADE00F911C6 /* HITopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HITopViewController.m; sourceTree = "<group>"; };
+		61B2FB241C477ADE00F911C6 /* HITopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HITopViewController.xib; sourceTree = "<group>"; };
+		61B2FB411C477B0400F911C6 /* HIViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIViewController1.h; sourceTree = "<group>"; };
+		61B2FB421C477B0400F911C6 /* HIViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIViewController1.m; sourceTree = "<group>"; };
+		61B2FB431C477B0400F911C6 /* HIViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIViewController1.xib; sourceTree = "<group>"; };
+		61B2FB441C477B0400F911C6 /* HIViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIViewController2.h; sourceTree = "<group>"; };
+		61B2FB451C477B0400F911C6 /* HIViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIViewController2.m; sourceTree = "<group>"; };
+		61B2FB461C477B0400F911C6 /* HIViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIViewController2.xib; sourceTree = "<group>"; };
+		61B2FB471C477B0400F911C6 /* HIViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIViewController3.h; sourceTree = "<group>"; };
+		61B2FB481C477B0400F911C6 /* HIViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIViewController3.m; sourceTree = "<group>"; };
+		61B2FB491C477B0400F911C6 /* HIViewController3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIViewController3.xib; sourceTree = "<group>"; };
+		61B2FB4A1C477B0400F911C6 /* HIViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIViewController4.h; sourceTree = "<group>"; };
+		61B2FB4B1C477B0400F911C6 /* HIViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIViewController4.m; sourceTree = "<group>"; };
+		61B2FB4C1C477B0400F911C6 /* HIViewController4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIViewController4.xib; sourceTree = "<group>"; };
 		995D30CA5EDA9E2A4539DC11 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B73057612A94E1E1AC1808D5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -178,26 +200,6 @@
 				61825B461C4618A400642B56 /* Classes */,
 				61825B321C46170A00642B56 /* AppDelegate.h */,
 				61825B331C46170A00642B56 /* AppDelegate.m */,
-				61825B351C46170A00642B56 /* ViewController.h */,
-				61825B361C46170A00642B56 /* ViewController.m */,
-				61825BAD1C46541400642B56 /* HIViewController1.h */,
-				61825BAE1C46541400642B56 /* HIViewController1.m */,
-				61825BAF1C46541400642B56 /* HIViewController1.xib */,
-				61825BB21C46542300642B56 /* HIViewController2.h */,
-				61825BB31C46542300642B56 /* HIViewController2.m */,
-				61825BB41C46542300642B56 /* HIViewController2.xib */,
-				61825BB71C46543300642B56 /* HIViewController3.h */,
-				61825BB81C46543300642B56 /* HIViewController3.m */,
-				61825BB91C46543300642B56 /* HIViewController3.xib */,
-				61825BBC1C46544000642B56 /* HIViewController4.h */,
-				61825BBD1C46544000642B56 /* HIViewController4.m */,
-				61825BBE1C46544000642B56 /* HIViewController4.xib */,
-				61825BA01C46528D00642B56 /* HIHead.h */,
-				61825B591C461A9E00642B56 /* HI.pch */,
-				61825B381C46170A00642B56 /* Main.storyboard */,
-				61825B3B1C46170A00642B56 /* Assets.xcassets */,
-				61825B3D1C46170A00642B56 /* LaunchScreen.storyboard */,
-				61825B401C46170A00642B56 /* Info.plist */,
 				61825B2F1C46170A00642B56 /* Supporting Files */,
 			);
 			path = HI;
@@ -206,6 +208,9 @@
 		61825B2F1C46170A00642B56 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				61825BA01C46528D00642B56 /* HIHead.h */,
+				61825B591C461A9E00642B56 /* HI.pch */,
+				61825B401C46170A00642B56 /* Info.plist */,
 				61825B301C46170A00642B56 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -220,6 +225,7 @@
 				61825B4B1C4618A400642B56 /* Services */,
 				61825B4C1C4618A400642B56 /* Views */,
 				61825B481C4618A400642B56 /* Controller */,
+				61B2FB401C477B0400F911C6 /* Test */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -246,8 +252,9 @@
 		61825B481C4618A400642B56 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				61825B521C4618D600642B56 /* Main */,
-				61825B511C4618CF00642B56 /* Base */,
+				61B2FAFF1C477ADE00F911C6 /* Base */,
+				61B2FB111C477ADE00F911C6 /* Main */,
+				61B2FB251C477ADE00F911C6 /* RegisterAndLogin */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -292,6 +299,7 @@
 		61825B4D1C4618AC00642B56 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				61825B3B1C46170A00642B56 /* Assets.xcassets */,
 				61825B4E1C4618AC00642B56 /* bg */,
 				61825B4F1C4618AC00642B56 /* icon */,
 				61825B501C4618AC00642B56 /* lib */,
@@ -320,37 +328,6 @@
 			path = lib;
 			sourceTree = "<group>";
 		};
-		61825B511C4618CF00642B56 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				61825B531C46193E00642B56 /* HICustomNavigationController.h */,
-				61825B541C46193E00642B56 /* HICustomNavigationController.m */,
-				61825B5A1C461BF100642B56 /* HIBaseViewController.h */,
-				61825B5B1C461BF100642B56 /* HIBaseViewController.m */,
-				61825B5C1C461BF100642B56 /* HIBaseViewController.xib */,
-				61825B5F1C461C2500642B56 /* HIBaseTableViewPlainController.h */,
-				61825B601C461C2500642B56 /* HIBaseTableViewPlainController.m */,
-				61825B611C461C2500642B56 /* HIBaseTableViewPlainController.xib */,
-				61825B641C46246300642B56 /* HIBaseTableViewGroupController.h */,
-				61825B651C46246300642B56 /* HIBaseTableViewGroupController.m */,
-				61825B661C46246300642B56 /* HIBaseTableViewGroupController.xib */,
-				61825BA31C46533800642B56 /* HICustomTabBarController.h */,
-				61825BA41C46533800642B56 /* HICustomTabBarController.m */,
-				61825BA51C46533800642B56 /* HICustomTabBarController.xib */,
-			);
-			name = Base;
-			sourceTree = "<group>";
-		};
-		61825B521C4618D600642B56 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				61825BA81C46537300642B56 /* HIMainTabBarViewController.h */,
-				61825BA91C46537300642B56 /* HIMainTabBarViewController.m */,
-				61825BAA1C46537300642B56 /* HIMainTabBarViewController.xib */,
-			);
-			name = Main;
-			sourceTree = "<group>";
-		};
 		61825B691C462AEB00642B56 /* Actions */ = {
 			isa = PBXGroup;
 			children = (
@@ -370,6 +347,152 @@
 				61825B861C4630C600642B56 /* HIChangePasswordAction.m */,
 			);
 			name = Actions;
+			sourceTree = "<group>";
+		};
+		61B2FAFF1C477ADE00F911C6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				61B2FB001C477ADE00F911C6 /* HIBaseTabBarSubViewController.h */,
+				61B2FB011C477ADE00F911C6 /* HIBaseTabBarSubViewController.m */,
+				61B2FB021C477ADE00F911C6 /* HIBaseTabBarSubViewController.xib */,
+				61B2FB031C477ADE00F911C6 /* HIBaseTableViewGroupController.h */,
+				61B2FB041C477ADE00F911C6 /* HIBaseTableViewGroupController.m */,
+				61B2FB051C477ADE00F911C6 /* HIBaseTableViewGroupController.xib */,
+				61B2FB061C477ADE00F911C6 /* HIBaseTableViewPlainController.h */,
+				61B2FB071C477ADE00F911C6 /* HIBaseTableViewPlainController.m */,
+				61B2FB081C477ADE00F911C6 /* HIBaseTableViewPlainController.xib */,
+				61B2FB091C477ADE00F911C6 /* HIBaseViewController.h */,
+				61B2FB0A1C477ADE00F911C6 /* HIBaseViewController.m */,
+				61B2FB0B1C477ADE00F911C6 /* HIBaseViewController.xib */,
+				61B2FB0C1C477ADE00F911C6 /* HICustomNavigationController.h */,
+				61B2FB0D1C477ADE00F911C6 /* HICustomNavigationController.m */,
+				61B2FB0E1C477ADE00F911C6 /* HICustomTabBarController.h */,
+				61B2FB0F1C477ADE00F911C6 /* HICustomTabBarController.m */,
+				61B2FB101C477ADE00F911C6 /* HICustomTabBarController.xib */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		61B2FB111C477ADE00F911C6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				61B2FB161C477ADE00F911C6 /* HIMainTabBarViewController.h */,
+				61B2FB171C477ADE00F911C6 /* HIMainTabBarViewController.m */,
+				61B2FB181C477ADE00F911C6 /* HIMainTabBarViewController.xib */,
+				61B2FB121C477ADE00F911C6 /* Friends */,
+				61B2FB191C477ADE00F911C6 /* HomePage */,
+				61B2FB1D1C477ADE00F911C6 /* PersonCenter */,
+				61B2FB211C477ADE00F911C6 /* TopBang */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		61B2FB121C477ADE00F911C6 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				61B2FB131C477ADE00F911C6 /* HIFriendsViewController.h */,
+				61B2FB141C477ADE00F911C6 /* HIFriendsViewController.m */,
+				61B2FB151C477ADE00F911C6 /* HIFriendsViewController.xib */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		61B2FB191C477ADE00F911C6 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				61B2FB1A1C477ADE00F911C6 /* HIHomePageViewController.h */,
+				61B2FB1B1C477ADE00F911C6 /* HIHomePageViewController.m */,
+				61B2FB1C1C477ADE00F911C6 /* HIHomePageViewController.xib */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		61B2FB1D1C477ADE00F911C6 /* PersonCenter */ = {
+			isa = PBXGroup;
+			children = (
+				61B2FB1E1C477ADE00F911C6 /* HIPersonalCenterViewController.h */,
+				61B2FB1F1C477ADE00F911C6 /* HIPersonalCenterViewController.m */,
+				61B2FB201C477ADE00F911C6 /* HIPersonalCenterViewController.xib */,
+			);
+			path = PersonCenter;
+			sourceTree = "<group>";
+		};
+		61B2FB211C477ADE00F911C6 /* TopBang */ = {
+			isa = PBXGroup;
+			children = (
+				61B2FB221C477ADE00F911C6 /* HITopViewController.h */,
+				61B2FB231C477ADE00F911C6 /* HITopViewController.m */,
+				61B2FB241C477ADE00F911C6 /* HITopViewController.xib */,
+			);
+			path = TopBang;
+			sourceTree = "<group>";
+		};
+		61B2FB251C477ADE00F911C6 /* RegisterAndLogin */ = {
+			isa = PBXGroup;
+			children = (
+				61B2FB261C477ADE00F911C6 /* FindPWD */,
+				61B2FB271C477ADE00F911C6 /* ForgetPWD */,
+				61B2FB281C477ADE00F911C6 /* Login */,
+				61B2FB291C477ADE00F911C6 /* Register */,
+				61B2FB2A1C477ADE00F911C6 /* Welcome */,
+			);
+			path = RegisterAndLogin;
+			sourceTree = "<group>";
+		};
+		61B2FB261C477ADE00F911C6 /* FindPWD */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FindPWD;
+			sourceTree = "<group>";
+		};
+		61B2FB271C477ADE00F911C6 /* ForgetPWD */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ForgetPWD;
+			sourceTree = "<group>";
+		};
+		61B2FB281C477ADE00F911C6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		61B2FB291C477ADE00F911C6 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		61B2FB2A1C477ADE00F911C6 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		61B2FB401C477B0400F911C6 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				61B2FAC21C473C6600F911C6 /* tabImg.png */,
+				61B2FAC01C4732F000F911C6 /* progress.png */,
+				61B2FB411C477B0400F911C6 /* HIViewController1.h */,
+				61B2FB421C477B0400F911C6 /* HIViewController1.m */,
+				61B2FB431C477B0400F911C6 /* HIViewController1.xib */,
+				61B2FB441C477B0400F911C6 /* HIViewController2.h */,
+				61B2FB451C477B0400F911C6 /* HIViewController2.m */,
+				61B2FB461C477B0400F911C6 /* HIViewController2.xib */,
+				61B2FB471C477B0400F911C6 /* HIViewController3.h */,
+				61B2FB481C477B0400F911C6 /* HIViewController3.m */,
+				61B2FB491C477B0400F911C6 /* HIViewController3.xib */,
+				61B2FB4A1C477B0400F911C6 /* HIViewController4.h */,
+				61B2FB4B1C477B0400F911C6 /* HIViewController4.m */,
+				61B2FB4C1C477B0400F911C6 /* HIViewController4.xib */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 		D1E4D3099E0610621F259E2C /* Pods */ = {
@@ -442,18 +565,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61825BAC1C46537300642B56 /* HIMainTabBarViewController.xib in Resources */,
-				61825B631C461C2500642B56 /* HIBaseTableViewPlainController.xib in Resources */,
-				61825BC01C46544000642B56 /* HIViewController4.xib in Resources */,
-				61825BB61C46542300642B56 /* HIViewController2.xib in Resources */,
-				61825B681C46246300642B56 /* HIBaseTableViewGroupController.xib in Resources */,
-				61825B5E1C461BF100642B56 /* HIBaseViewController.xib in Resources */,
-				61825BBB1C46543300642B56 /* HIViewController3.xib in Resources */,
-				61825B3F1C46170A00642B56 /* LaunchScreen.storyboard in Resources */,
-				61825BB11C46541400642B56 /* HIViewController1.xib in Resources */,
-				61825BA71C46533800642B56 /* HICustomTabBarController.xib in Resources */,
+				61B2FB391C477ADE00F911C6 /* HIMainTabBarViewController.xib in Resources */,
+				61B2FAC11C4732F000F911C6 /* progress.png in Resources */,
+				61B2FB371C477ADE00F911C6 /* HIFriendsViewController.xib in Resources */,
+				61B2FB301C477ADE00F911C6 /* HIBaseTableViewPlainController.xib in Resources */,
+				61B2FB501C477B0400F911C6 /* HIViewController2.xib in Resources */,
+				61B2FB521C477B0400F911C6 /* HIViewController3.xib in Resources */,
+				61B2FB2E1C477ADE00F911C6 /* HIBaseTableViewGroupController.xib in Resources */,
+				61B2FB3F1C477ADE00F911C6 /* HITopViewController.xib in Resources */,
+				61B2FB321C477ADE00F911C6 /* HIBaseViewController.xib in Resources */,
+				61B2FB4E1C477B0400F911C6 /* HIViewController1.xib in Resources */,
+				61B2FB541C477B0400F911C6 /* HIViewController4.xib in Resources */,
+				61B2FB3B1C477ADE00F911C6 /* HIHomePageViewController.xib in Resources */,
+				61B2FB2C1C477ADE00F911C6 /* HIBaseTabBarSubViewController.xib in Resources */,
 				61825B3C1C46170A00642B56 /* Assets.xcassets in Resources */,
-				61825B3A1C46170A00642B56 /* Main.storyboard in Resources */,
+				61B2FB3D1C477ADE00F911C6 /* HIPersonalCenterViewController.xib in Resources */,
+				61B2FB351C477ADE00F911C6 /* HICustomTabBarController.xib in Resources */,
+				61B2FAC31C473C6600F911C6 /* tabImg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,59 +625,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61825BAB1C46537300642B56 /* HIMainTabBarViewController.m in Sources */,
-				61825B371C46170A00642B56 /* ViewController.m in Sources */,
-				61825BBF1C46544000642B56 /* HIViewController4.m in Sources */,
+				61B2FB3C1C477ADE00F911C6 /* HIPersonalCenterViewController.m in Sources */,
+				61B2FB2D1C477ADE00F911C6 /* HIBaseTableViewGroupController.m in Sources */,
 				61825BCF1C4654D500642B56 /* UINavigationItem+BMargin.m in Sources */,
 				61825BD01C4654D500642B56 /* UITableViewCell+BGetCellHeight.m in Sources */,
+				61B2FB331C477ADE00F911C6 /* HICustomNavigationController.m in Sources */,
 				61825BD21C4654D500642B56 /* UIViewController+Tracking.m in Sources */,
-				61825B621C461C2500642B56 /* HIBaseTableViewPlainController.m in Sources */,
 				61825B7B1C462FBF00642B56 /* HILoginAction.m in Sources */,
 				61825B871C4630C600642B56 /* HIChangePasswordAction.m in Sources */,
-				61825B551C46193E00642B56 /* HICustomNavigationController.m in Sources */,
-				61825BB51C46542300642B56 /* HIViewController2.m in Sources */,
-				61825BA61C46533800642B56 /* HICustomTabBarController.m in Sources */,
 				61825B6C1C462B1000642B56 /* HIHttpActionMgr.m in Sources */,
-				61825BB01C46541400642B56 /* HIViewController1.m in Sources */,
 				61825BD11C4654D500642B56 /* UIView+loadNib.m in Sources */,
-				61825B5D1C461BF100642B56 /* HIBaseViewController.m in Sources */,
 				61825BCD1C4654D500642B56 /* BBlureEffectView.m in Sources */,
 				61825B581C4619B100642B56 /* HIUntil.m in Sources */,
 				61825B811C46308300642B56 /* HIActionFindPWD.m in Sources */,
 				61825B7E1C46305600642B56 /* HIConfirmCodeAction.m in Sources */,
+				61B2FB511C477B0400F911C6 /* HIViewController3.m in Sources */,
+				61B2FB4D1C477B0400F911C6 /* HIViewController1.m in Sources */,
+				61B2FB361C477ADE00F911C6 /* HIFriendsViewController.m in Sources */,
+				61B2FB4F1C477B0400F911C6 /* HIViewController2.m in Sources */,
+				61B2FB341C477ADE00F911C6 /* HICustomTabBarController.m in Sources */,
 				61825B721C462C0400642B56 /* HIStoreService.m in Sources */,
-				61825BBA1C46543300642B56 /* HIViewController3.m in Sources */,
 				61825B341C46170A00642B56 /* AppDelegate.m in Sources */,
-				61825B671C46246300642B56 /* HIBaseTableViewGroupController.m in Sources */,
 				61825B6F1C462B7900642B56 /* HIResponeResult.m in Sources */,
 				61825B841C46309E00642B56 /* HISignupWithPhoneAction.m in Sources */,
+				61B2FB381C477ADE00F911C6 /* HIMainTabBarViewController.m in Sources */,
+				61B2FB3E1C477ADE00F911C6 /* HITopViewController.m in Sources */,
 				61825BCE1C4654D500642B56 /* CALayer+BLayerBorderColor.m in Sources */,
 				61825B311C46170A00642B56 /* main.m in Sources */,
+				61B2FB2F1C477ADE00F911C6 /* HIBaseTableViewPlainController.m in Sources */,
+				61B2FB311C477ADE00F911C6 /* HIBaseViewController.m in Sources */,
+				61B2FB531C477B0400F911C6 /* HIViewController4.m in Sources */,
+				61B2FB3A1C477ADE00F911C6 /* HIHomePageViewController.m in Sources */,
+				61B2FB2B1C477ADE00F911C6 /* HIBaseTabBarSubViewController.m in Sources */,
 				61825B781C462F7B00642B56 /* HISignoutAction.m in Sources */,
 				61825B751C462DAC00642B56 /* HIActionBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		61825B381C46170A00642B56 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				61825B391C46170A00642B56 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		61825B3D1C46170A00642B56 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				61825B3E1C46170A00642B56 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		61825B411C46170A00642B56 /* Debug */ = {
@@ -637,11 +750,13 @@
 			baseConfigurationReference = 995D30CA5EDA9E2A4539DC11 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = HI/HI.pch;
 				INFOPLIST_FILE = HI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lk.com.HI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -654,11 +769,13 @@
 			baseConfigurationReference = B73057612A94E1E1AC1808D5 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = HI/HI.pch;
 				INFOPLIST_FILE = HI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lk.com.HI;
 				PRODUCT_NAME = "$(TARGET_NAME)";

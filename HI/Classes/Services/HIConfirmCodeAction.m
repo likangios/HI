@@ -13,9 +13,8 @@
     self=[super initWithActionURLString:@"/api/v1/sms/requestCode.json"];
     if (self) {
         self.parameters  = [[NSMutableDictionary alloc]initWithObjectsAndKeys:phone_number,@"phone_num",template_id,@"template_id", nil];
-        self.isValid = YES;
     }
-    
+    self.isValid = YES;
     return self;
 }
 @end
