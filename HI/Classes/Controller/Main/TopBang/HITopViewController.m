@@ -16,10 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"top";
-    self.tabBarItem.title = @"Top";
-    self.tabBarItem.image = [[UIImage imageNamed:@"tabImg"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    self.tabBarItem.selectedImage =[[UIImage imageNamed:@"tabImg"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -16,10 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"friend";
-    self.tabBarItem.title = @"Friend";
-    self.tabBarItem.image = [[UIImage imageNamed:@"tabImg"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    self.tabBarItem.selectedImage =[[UIImage imageNamed:@"tabImg"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 }
 
 - (void)didReceiveMemoryWarning {

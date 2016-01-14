@@ -20,10 +20,18 @@
 }
 - (void)loadViewControllers{
     NSArray *vcs = @[@"HIHomePageViewController",@"HIFriendsViewController",@"HITopViewController",@"HIPersonalCenterViewController"];
+    NSArray *navtitles = @[@"1",@"2",@"3",@"4"];
+    NSArray *taritemtitle = @[@"11",@"22",@"33",@"44"];
+    NSArray *tabimg = @[@"tabImg",@"tabImg",@"tabImg",@"tabImg"];
+    NSArray *tabselimg = @[@"tabImg1",@"tabImg1",@"tabImg1",@"tabImg1"];
     NSMutableArray *viewcontrollers = [NSMutableArray array];
+    NSInteger count = 0;
     for (NSString *class_name in vcs) {
         UIViewController *vc = [[NSClassFromString(class_name) alloc]initWithNib];
-        vc.view.backgroundColor = hi_color(arc4random()%255, arc4random()%255, arc4random()%255);
+        vc.title = navtitles[count];
+        vc.tabBarItem.title = taritemtitle[count];
+        vc.tabBarItem.image = [[UIImage imageNamed:tabimg[count]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        vc.tabBarItem.selectedImage =[[UIImage imageNamed:tabselimg[count]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         HICustomNavigationController *nav = [[HICustomNavigationController alloc]initWithRootViewController:vc];
         [viewcontrollers addObject:nav];
     }

@@ -9,20 +9,43 @@
 #import "HIHomePageViewController.h"
 #import "HIViewController1.h"
 
-@interface HIHomePageViewController ()
-
+@interface HIHomePageViewController ()<UITableViewDataSource,UITableViewDelegate>
+@property (nonatomic,strong) IBOutlet UITableView *tableView;
 @end
 
 @implementation HIHomePageViewController
 
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+    }
+    return self;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"home";
-    self.tabBarItem.title = @"Home";
-    self.tabBarItem.image = [[UIImage imageNamed:@"tabImg"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    self.tabBarItem.selectedImage =[[UIImage imageNamed:@"tabImg"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 }
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [self.navigationController pushViewController:[[HIViewController1 alloc]initWithNib] animated:YES];
+}
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 50;
+}
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    UITableViewCell *cell = [self tableView:tableView cellForRowAtIndexPath:indexPath];
+    
+    return cell.cellHeight.floatValue;
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc ]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+    }
+    cell.textLabel.text =[NSString stringWithFormat:@"indexPaht.row %ld",indexPath.row];
+    cell.cellHeight = [NSNumber numberWithInteger:indexPath.row*5];
+    return cell;
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [self.navigationController pushViewController:[[HIViewController1 alloc]initWithNib] animated:YES];
 }
 - (void)didReceiveMemoryWarning {

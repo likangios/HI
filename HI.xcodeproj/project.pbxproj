@@ -31,10 +31,6 @@
 		61B2FAC31C473C6600F911C6 /* tabImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B2FAC21C473C6600F911C6 /* tabImg.png */; };
 		61B2FB2B1C477ADE00F911C6 /* HIBaseTabBarSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B2FB011C477ADE00F911C6 /* HIBaseTabBarSubViewController.m */; };
 		61B2FB2C1C477ADE00F911C6 /* HIBaseTabBarSubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B2FB021C477ADE00F911C6 /* HIBaseTabBarSubViewController.xib */; };
-		61B2FB2D1C477ADE00F911C6 /* HIBaseTableViewGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B2FB041C477ADE00F911C6 /* HIBaseTableViewGroupController.m */; };
-		61B2FB2E1C477ADE00F911C6 /* HIBaseTableViewGroupController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B2FB051C477ADE00F911C6 /* HIBaseTableViewGroupController.xib */; };
-		61B2FB2F1C477ADE00F911C6 /* HIBaseTableViewPlainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B2FB071C477ADE00F911C6 /* HIBaseTableViewPlainController.m */; };
-		61B2FB301C477ADE00F911C6 /* HIBaseTableViewPlainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B2FB081C477ADE00F911C6 /* HIBaseTableViewPlainController.xib */; };
 		61B2FB311C477ADE00F911C6 /* HIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B2FB0A1C477ADE00F911C6 /* HIBaseViewController.m */; };
 		61B2FB321C477ADE00F911C6 /* HIBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B2FB0B1C477ADE00F911C6 /* HIBaseViewController.xib */; };
 		61B2FB331C477ADE00F911C6 /* HICustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B2FB0D1C477ADE00F911C6 /* HICustomNavigationController.m */; };
@@ -58,6 +54,7 @@
 		61B2FB521C477B0400F911C6 /* HIViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B2FB491C477B0400F911C6 /* HIViewController3.xib */; };
 		61B2FB531C477B0400F911C6 /* HIViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B2FB4B1C477B0400F911C6 /* HIViewController4.m */; };
 		61B2FB541C477B0400F911C6 /* HIViewController4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B2FB4C1C477B0400F911C6 /* HIViewController4.xib */; };
+		61B2FB561C4796D200F911C6 /* tabImg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B2FB551C4796D200F911C6 /* tabImg1.png */; };
 		9FAEB2D3895A3371F22F1E6D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3925F9C87CACE7EC51D95010 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -110,12 +107,6 @@
 		61B2FB001C477ADE00F911C6 /* HIBaseTabBarSubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIBaseTabBarSubViewController.h; sourceTree = "<group>"; };
 		61B2FB011C477ADE00F911C6 /* HIBaseTabBarSubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIBaseTabBarSubViewController.m; sourceTree = "<group>"; };
 		61B2FB021C477ADE00F911C6 /* HIBaseTabBarSubViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIBaseTabBarSubViewController.xib; sourceTree = "<group>"; };
-		61B2FB031C477ADE00F911C6 /* HIBaseTableViewGroupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIBaseTableViewGroupController.h; sourceTree = "<group>"; };
-		61B2FB041C477ADE00F911C6 /* HIBaseTableViewGroupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIBaseTableViewGroupController.m; sourceTree = "<group>"; };
-		61B2FB051C477ADE00F911C6 /* HIBaseTableViewGroupController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIBaseTableViewGroupController.xib; sourceTree = "<group>"; };
-		61B2FB061C477ADE00F911C6 /* HIBaseTableViewPlainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIBaseTableViewPlainController.h; sourceTree = "<group>"; };
-		61B2FB071C477ADE00F911C6 /* HIBaseTableViewPlainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIBaseTableViewPlainController.m; sourceTree = "<group>"; };
-		61B2FB081C477ADE00F911C6 /* HIBaseTableViewPlainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIBaseTableViewPlainController.xib; sourceTree = "<group>"; };
 		61B2FB091C477ADE00F911C6 /* HIBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIBaseViewController.h; sourceTree = "<group>"; };
 		61B2FB0A1C477ADE00F911C6 /* HIBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIBaseViewController.m; sourceTree = "<group>"; };
 		61B2FB0B1C477ADE00F911C6 /* HIBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIBaseViewController.xib; sourceTree = "<group>"; };
@@ -151,6 +142,7 @@
 		61B2FB4A1C477B0400F911C6 /* HIViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIViewController4.h; sourceTree = "<group>"; };
 		61B2FB4B1C477B0400F911C6 /* HIViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIViewController4.m; sourceTree = "<group>"; };
 		61B2FB4C1C477B0400F911C6 /* HIViewController4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HIViewController4.xib; sourceTree = "<group>"; };
+		61B2FB551C4796D200F911C6 /* tabImg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabImg1.png; path = ../../../../../../Desktop/tabImg1.png; sourceTree = "<group>"; };
 		995D30CA5EDA9E2A4539DC11 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B73057612A94E1E1AC1808D5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -355,12 +347,6 @@
 				61B2FB001C477ADE00F911C6 /* HIBaseTabBarSubViewController.h */,
 				61B2FB011C477ADE00F911C6 /* HIBaseTabBarSubViewController.m */,
 				61B2FB021C477ADE00F911C6 /* HIBaseTabBarSubViewController.xib */,
-				61B2FB031C477ADE00F911C6 /* HIBaseTableViewGroupController.h */,
-				61B2FB041C477ADE00F911C6 /* HIBaseTableViewGroupController.m */,
-				61B2FB051C477ADE00F911C6 /* HIBaseTableViewGroupController.xib */,
-				61B2FB061C477ADE00F911C6 /* HIBaseTableViewPlainController.h */,
-				61B2FB071C477ADE00F911C6 /* HIBaseTableViewPlainController.m */,
-				61B2FB081C477ADE00F911C6 /* HIBaseTableViewPlainController.xib */,
 				61B2FB091C477ADE00F911C6 /* HIBaseViewController.h */,
 				61B2FB0A1C477ADE00F911C6 /* HIBaseViewController.m */,
 				61B2FB0B1C477ADE00F911C6 /* HIBaseViewController.xib */,
@@ -379,10 +365,10 @@
 				61B2FB161C477ADE00F911C6 /* HIMainTabBarViewController.h */,
 				61B2FB171C477ADE00F911C6 /* HIMainTabBarViewController.m */,
 				61B2FB181C477ADE00F911C6 /* HIMainTabBarViewController.xib */,
-				61B2FB121C477ADE00F911C6 /* Friends */,
 				61B2FB191C477ADE00F911C6 /* HomePage */,
-				61B2FB1D1C477ADE00F911C6 /* PersonCenter */,
+				61B2FB121C477ADE00F911C6 /* Friends */,
 				61B2FB211C477ADE00F911C6 /* TopBang */,
+				61B2FB1D1C477ADE00F911C6 /* PersonCenter */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -477,6 +463,7 @@
 		61B2FB401C477B0400F911C6 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				61B2FB551C4796D200F911C6 /* tabImg1.png */,
 				61B2FAC21C473C6600F911C6 /* tabImg.png */,
 				61B2FAC01C4732F000F911C6 /* progress.png */,
 				61B2FB411C477B0400F911C6 /* HIViewController1.h */,
@@ -568,10 +555,9 @@
 				61B2FB391C477ADE00F911C6 /* HIMainTabBarViewController.xib in Resources */,
 				61B2FAC11C4732F000F911C6 /* progress.png in Resources */,
 				61B2FB371C477ADE00F911C6 /* HIFriendsViewController.xib in Resources */,
-				61B2FB301C477ADE00F911C6 /* HIBaseTableViewPlainController.xib in Resources */,
+				61B2FB561C4796D200F911C6 /* tabImg1.png in Resources */,
 				61B2FB501C477B0400F911C6 /* HIViewController2.xib in Resources */,
 				61B2FB521C477B0400F911C6 /* HIViewController3.xib in Resources */,
-				61B2FB2E1C477ADE00F911C6 /* HIBaseTableViewGroupController.xib in Resources */,
 				61B2FB3F1C477ADE00F911C6 /* HITopViewController.xib in Resources */,
 				61B2FB321C477ADE00F911C6 /* HIBaseViewController.xib in Resources */,
 				61B2FB4E1C477B0400F911C6 /* HIViewController1.xib in Resources */,
@@ -626,7 +612,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				61B2FB3C1C477ADE00F911C6 /* HIPersonalCenterViewController.m in Sources */,
-				61B2FB2D1C477ADE00F911C6 /* HIBaseTableViewGroupController.m in Sources */,
 				61825BCF1C4654D500642B56 /* UINavigationItem+BMargin.m in Sources */,
 				61825BD01C4654D500642B56 /* UITableViewCell+BGetCellHeight.m in Sources */,
 				61B2FB331C477ADE00F911C6 /* HICustomNavigationController.m in Sources */,
@@ -652,7 +637,6 @@
 				61B2FB3E1C477ADE00F911C6 /* HITopViewController.m in Sources */,
 				61825BCE1C4654D500642B56 /* CALayer+BLayerBorderColor.m in Sources */,
 				61825B311C46170A00642B56 /* main.m in Sources */,
-				61B2FB2F1C477ADE00F911C6 /* HIBaseTableViewPlainController.m in Sources */,
 				61B2FB311C477ADE00F911C6 /* HIBaseViewController.m in Sources */,
 				61B2FB531C477B0400F911C6 /* HIViewController4.m in Sources */,
 				61B2FB3A1C477ADE00F911C6 /* HIHomePageViewController.m in Sources */,

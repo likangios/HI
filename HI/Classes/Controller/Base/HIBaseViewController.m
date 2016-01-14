@@ -20,9 +20,6 @@
     }
     return self;
 }
-- (instancetype)initWithNib{
-    return [self initWithNibName:NSStringFromClass(self.class) bundle:nil];
-}
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -113,7 +110,7 @@
 - (UIBarButtonItem *)getBackItem{
     
     UIButton *backBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 44, 44)];
-    backBtn.backgroundColor  =[UIColor orangeColor];
+    backBtn.backgroundColor  =[UIColor clearColor];
     [backBtn setImage:[UIImage imageNamed:@"toolbar_leftarrow"] forState:UIControlStateNormal];
     [backBtn addTarget:self action:@selector(backAction:) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithCustomView:backBtn];
